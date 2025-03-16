@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div><img class="img" src="image.jpg" alt="">
+        <div class="home-content">
+            <h3>Hello , It's Me</h3>
+            <h1>Chalamakunta Sai Ram <br> Reddy</h1>
+            <h3>And I'm a <span> Fronted Developer</span></h3>
+            <p>currently pursing my B.Tech at GPREC,Kurnool,Andhra Pradesh.<br>My expertise in web design and frontened design.</p>
+        </div>
+        <div class="home-sci">
+           <a href="#"><i class='bx bxl-linkedin'></i></a>
+           <a href="#"><i class='bx bxl-instagram' ></i></a>
+           <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        <br>
+        <a href="#" class="btn-box">More about me....</a>
+    </div>
+    </section>
+    <section id="about" class="about">
+        <div>
+            <img class="img" src="image.jpg" alt="">
+        </div>
+            <div class="about-text">
+               <h2>About Me....</h2>
+               <h3>Full Stack Developer</h3>
+                <p>I'm a passionate <span>Full-Stack Developer</span> with a strong foundation in both front-end and back-end technologies. I love building scalable, efficient, and user-friendly web applications that solve real-world problems.
+                I thrive on learning new technologies, optimizing performance, and writing clean, maintainable code. Whether it’s designing sleek user interfaces or architecting robust APIs, I bring a problem-solving mindset and a keen eye for detail to every project.</p>
+                <br><br><a href="#" class="btn-box">More about me....</a>
+            </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 style="text-align: center;font-size: 35px;">My Skills</h2>
+            <div class="skill">
+                <label for="html"><i style="color:rgba(237, 79, 10, 0.934)" class='bx bxl-html5'></i>HTML</label>
+                <input type="range" id="html" min="0" max="100" value="80">
+            </div>
+            <div class="skill">
+                <label for="css"><i style="color:rgb(106, 94, 245)"class='bx bxl-css3'></i>CSS</label>
+                <input type="range" id="css" min="0" max="100" value="75">
+            </div>
+            <div class="skill">
+                <label for="java"><i style="color:red" class='bx bxl-java'></i>Java</label>
+                <input type="range" id="java" min="0" max="100" value="70">
+            </div>
+            <div class="skill">
+                <label for="javascript"><i style="color:rgb(243, 239, 8);"class='bx bxl-javascript'></i>JavaScript</label>
+                <input type="range" id="javascript" min="0" max="100" value="85">
+            </div>
+            <div class="skill">
+                <label for="github"><i style="color:blueviolet" class='bx bxl-github'></i>GitHub</label>
+                <input type="range" id="github" min="0" max="100" value="60">
+            </div>
+        </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="contact-container">
+        <div class="contact-text">
+            <h2>Contact Me</h2>
+            <p>If you have any queries, opportunities, or just want to say hi, feel free to reach out! I'm always open to collaborations and networking.</p>
+            <div class="contact-info"  >
+                <p><i class='bx bx-envelope'></i> <a href="mailto:sairam561@gmail.com">sairam561@gmail.com</a></p>
+                <p><i class='bx bx-phone'></i> 9876543210</p>
+                <button class="button" id="button">Click here if u reject</button><br><br>
+                <button id="printBtn">Print of my portfolio</button>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="input-box">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="input-box">
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="javascript.js"></script>
+</body>
+</html>
